@@ -18,7 +18,6 @@ class RegisterController extends Controller
 
         return view('pages.register');
     }
-
     public function register(Request $request)
     {
         $request->validate([
